@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #021024, #032b5c);
+    background: linear-gradient(135deg, #021024, #05f751);
     color: white;
     overflow-x: hidden;
 }
@@ -129,11 +129,14 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.section h2 {
+.section h2{
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
+.button{
+    margin-left: 1%;
+}
 .cards {
     display: flex;
     justify-content: center;
@@ -183,4 +186,13 @@ footer {
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
+}
+#contact  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    height: 100vh;
 }
